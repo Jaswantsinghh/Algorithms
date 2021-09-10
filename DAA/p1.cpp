@@ -26,7 +26,7 @@ int main(){
     int input_crn;
     cout <<"Enter your roll number\n";
     cin >> input_crn;
-    int left = 0, right = 4;
+    int left = 0, right = 5;
     int mid = (left+right) / 2;
     bool res = binary_search_util(input_crn, crn_array, mid, left, right);
     if(res) cout << "CRN "<<input_crn<<" found!";
